@@ -23,7 +23,7 @@ namespace Etch.OrchardCore.TinyPNG
                             .Add(S["Tiny PNG"], S["Tiny PNG"].PrefixPosition(), settings => settings
                             .AddClass("tinyPNG").Id("tinyPNG")
                             .Action("Index", "Admin", new { area = "OrchardCore.Settings", groupId = Constants.GroupId })
-                                //.Permission(Permissions.ManageTinyPng)
+                                .Permission(TinyPngPermissions.ManageTinyPng)
                                 .LocalNav())
                             )
                         );
