@@ -1,0 +1,8 @@
+﻿@model Etch.OrchardCore.TinyPNG.ViewModels.TinyPngSettingsViewModel
+
+<div class="form-group" asp-validation-class-for="ApiKey">
+    <label asp-for="ApiKey">@T["API Key"]</label>
+    <input asp-for="ApiKey" class="form-control" type="text" />
+    <span asp-validation-for="ApiKey"></span>
+    <span class="hint">@T["To use the TinyPNG you must provide an API key. You can <a href=\"https://tinypng.com/developers\">get an API key</a> by registering with your name and email address."]</span>
+</div>
