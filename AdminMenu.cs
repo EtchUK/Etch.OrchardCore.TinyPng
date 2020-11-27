@@ -16,17 +16,15 @@ namespace Etch.OrchardCore.TinyPNG
 
         public Task BuildNavigationAsync(string name, NavigationBuilder builder)
         {
-            if (String.Equals(name, "admin", StringComparison.OrdinalIgnoreCase))
+            if (string.Equals(name, "admin", StringComparison.OrdinalIgnoreCase))
             {
                 builder.Add(S["Configuration"], configuration => configuration
-                        .Add(S["Settings"], settings => settings
-                            .Add(S["Tiny PNG"], S["Tiny PNG"].PrefixPosition(), settings => settings
-                            .AddClass("tinyPNG").Id("tinyPNG")
-                            .Action("Index", "Admin", new { area = "OrchardCore.Settings", groupId = Constants.GroupId })
-                                .Permission(TinyPngPermissions.ManageTinyPng)
-                                .LocalNav())
-                            )
-                        );
+                    .Add(S["Tiny PNG"], S["Tiny PNG"].PrefixPosition(), settings => settings
+                    .AddClass("tinyPNG").Id("tinyPNG")
+                    .Action("Index", "Admin", new { area = "OrchardCore.Settings", groupId = Constants.GroupId })
+                        .Permission(TinyPngPermissions.ManageTinyPng)
+                        .LocalNav())
+                    );
             }
 
             return Task.CompletedTask;
