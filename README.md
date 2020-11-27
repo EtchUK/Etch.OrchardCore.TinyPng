@@ -18,7 +18,7 @@ Alternatively you can [download the source](https://github.com/etchuk/Etch.Orcha
 
 ## Usage
 
-*Add instructions on how to use module features.*
+Enable "TinyPNG" feature within the admin dashboard. Next you'll need an [API key from TinyPNG](https://tinypng.com/developers) by registering with your name and email address. Under the "Configuration" menu option will be "TinyPNG", which is where you can set your API key. Once configured, any JPG or PNG files uploaded to the media library will be compressed by TinyPNG.
 
 ## Packaging
 
