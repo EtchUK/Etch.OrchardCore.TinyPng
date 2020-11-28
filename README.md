@@ -1,6 +1,6 @@
 # Etch.OrchardCore.TinyPNG
 
-Optimise images using TinyPNG
+[Orchard Core](https://github.com/orchardcms/orchardcore) module that uses [TinyPNG](https://tinypng.com/) to optimise images uploaded to media library.
 
 ## Build Status
 
@@ -22,8 +22,4 @@ Enable "TinyPNG" feature within the admin dashboard. Next you'll need an [API ke
 
 ## Packaging
 
-When the theme is compiled (using `dotnet build`) it's configured to generate a `.nupkg` file (this can be found in `\bin\Debug\` or `\bin\Release`).
-
-## Notes
-
-This theme was created using `v0.4.1` of [Etch.OrchardCore.TinyPNG](https://github.com/EtchUK/Etch.OrchardCore.TinyPNG) template.
+When the module is compiled (using `dotnet build`) it's configured to generate a `.nupkg` file (this can be found in `\bin\Debug\` or `\bin\Release`).
