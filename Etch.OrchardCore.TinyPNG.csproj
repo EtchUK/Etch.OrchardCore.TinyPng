@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>0.1.0-rc2</Version>
@@ -13,12 +13,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="OrchardCore.Admin" Version="1.0.0-rc2-13450" />
-    <PackageReference Include="OrchardCore.ContentManagement" Version="1.0.0-rc2-13450" />
-    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-rc2-13450" />
-    <PackageReference Include="OrchardCore.Media" Version="1.0.0-rc2-13450" />
-    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-rc2-13450" />
-    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-rc2-13450" />
+    <PackageReference Include="OrchardCore.Admin" Version="1.0.0-rc2-16368" />
+    <PackageReference Include="OrchardCore.ContentManagement" Version="1.0.0-rc2-16368" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.0.0-rc2-16368" />
+    <PackageReference Include="OrchardCore.Media" Version="1.0.0-rc2-16368" />
+    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.0.0-rc2-16368" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.0.0-rc2-16368" />
     <PackageReference Include="Tinify" Version="1.5.2" />
   </ItemGroup>
 
