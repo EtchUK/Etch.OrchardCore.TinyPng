@@ -5,6 +5,6 @@ using OrchardCore.Modules.Manifest;
     Category = "Content",
     Description = "Optimise images using TinyPNG",
     Name = "TinyPNG",
-    Version = "1.2.0",
+    Version = "1.3.0",
     Website = "https://etchuk.com"
 )]
