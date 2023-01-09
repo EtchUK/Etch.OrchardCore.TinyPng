@@ -11,6 +11,14 @@
     <Description>Optimise images using TinyPNG</Description>
     <PackageTags>orchardcore;etchuk</PackageTags>
   </PropertyGroup>
+  
+  <ItemGroup>
+    <EmbeddedResource Remove=".gitignore" />
+    <EmbeddedResource Remove="azure-pipelines.yml" />
+    <EmbeddedResource Remove="nuget.config" />
+    <EmbeddedResource Remove="LICENSE.md" />
+    <EmbeddedResource Remove="README.md" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="OrchardCore.Admin" Version="1.4.0" />
