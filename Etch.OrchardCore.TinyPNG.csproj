@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Razor">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Version>$(VersionNumber)</Version>
@@ -21,12 +21,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="OrchardCore.Admin" Version="1.7.2" />
-    <PackageReference Include="OrchardCore.ContentManagement" Version="1.7.2" />
-    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.7.2" />
-    <PackageReference Include="OrchardCore.Media" Version="1.7.2" />
-    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.7.2" />
-    <PackageReference Include="OrchardCore.Module.Targets" Version="1.7.2" />
+    <PackageReference Include="OrchardCore.Admin" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.ContentManagement" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.DisplayManagement" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.Media" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.ResourceManagement" Version="1.8.3" />
+    <PackageReference Include="OrchardCore.Module.Targets" Version="1.8.3" />
     <PackageReference Include="Tinify" Version="1.6.0" />
   </ItemGroup>
 
